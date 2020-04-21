@@ -1,0 +1,23 @@
+body {
+  background-image: url(schwarz.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+.title {
+  color: antiquewhite;
+  text-align: center;
+  margin: auto;
+  font-weight: bold;
+}
+.videos-title {
+  margin: auto;
+  text-align: center;
+}
+.link {
+  font-weight: bold;
+  margin: auto;
+  text-align: center;
+  background: black;
+}
