@@ -5,6 +5,11 @@ body {
   background-size: cover;
   background-attachment: fixed;
 }
+.carousel-control-next-icon,
+.carousel-control-prev-icon {
+  height: 40px;
+  width: 40px;
+}
 .title {
   color: antiquewhite;
   text-align: center;
