@@ -10,6 +10,40 @@ body {
   height: 40px;
   width: 40px;
 }
+.slide-row {
+  margin: auto;
+  width: 100%;
+}
+.clicktoSee {
+  margin-top: 10px;
+}
+.clicktoSee .btn {
+  box-shadow: inset 2px 4px 6px -2px rgba(255, 255, 255, 0.6),
+    0px 4px 4px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  color: white;
+  margin: 5px;
+  font-size: 20px;
+  animation: animate 2s linear infinite;
+  animation-delay: 0s;
+  background-color: black;
+  font-weight: bold;
+}
+@keyframes animate {
+  0%,
+  100% {
+    color: #fff;
+    filter: blur(2px);
+    text-shadow: 0 0 10px #00b3ff, 0 0 20px #00b3ff, 0 0 40px #00b3ff,
+      0 0 80px #00b3ff, 0 0 120px #00b3ff, 0 0 200px #00b3ff;
+  }
+  5%,
+  95% {
+    color: rgb(117, 117, 117);
+    filter: blur(0px);
+    text-shadow: none;
+  }
+}
 .title {
   color: antiquewhite;
   text-align: center;
