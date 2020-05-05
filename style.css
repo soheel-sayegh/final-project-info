@@ -44,6 +44,9 @@ body {
     text-shadow: none;
   }
 }
+.carousel {
+  width: 100%;
+}
 .title {
   color: antiquewhite;
   text-align: center;
